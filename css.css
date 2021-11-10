@@ -1,0 +1,206 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serifc;
+    color: white;
+    background: linear-gradient(lightpink,skyblue);
+    background-image: url(https://images.pexels.com/photos/1484516/pexels-photo-1484516.jpeg?cs=srgb&dl=pexels-valeria-boltneva-1484516.jpg&fm=jpg) ;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+   image-resolution: 1600*960px;
+   background-position-x: center;
+}
+.box
+{
+    cursor: pointer;
+    width: 900px;
+    float: right;
+    border: 1px solid black;
+}
+.box ul li{
+    width: 120px;
+    float: left; 
+    margin: 10px auto;
+    text-align: center
+}
+
+.box ul li a {
+    text-decoration: none;
+    color: lavender;
+    font: bold;
+    font-size: larger;
+}
+
+.box ul li:hover
+{
+    background-color:lightgreen;
+}
+.box ul li a:hover
+{
+    color: darkblue
+}
+
+.Welcome
+{
+    width: 300px;
+    height: 530px;
+    background-color: black;
+    opacity: 0.8;
+    padding: 55px;
+}
+
+.Welcome h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100px;
+}
+
+.Welcome h4{
+    text-align: justify;
+    color: antiquewhite;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.Welcome h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 40px auto;
+}
+
+.opt form,input[type="button"]{
+background-color: black;
+color: white;
+padding: 10px;
+margin: -14px auto;
+padding-left: 50px;
+padding-right: 50px;
+text-align: center;
+}
+
+form, input[type="button"]:hover{background-color: lightgreen;}
+
+.bg 
+{
+   align-items: center;
+   padding-left: 50px;
+   padding-right: 50px;
+   animation:float 3s linear infinite ;
+}
+
+@keyframes float {
+    0%,100%
+    {
+        transform: translateX(0rem);
+    }
+    50%{
+        transform: translateX(2rem)
+    } 
+}
+
+
+.veg 
+{
+
+    width: 1200px;
+    float: right;
+    
+}
+
+.imgmenu
+{
+    width:200px ;
+    height: 200px ;
+  padding:5px;
+  padding-inline: 20px;
+
+}
+.Olv
+{
+    float: left;
+  
+}
+.speciality .box-container{
+    display: flex;
+    flex-wrap:wrap;
+    gap:1.5px;
+  }
+  
+  .speciality .box-container .box1{
+    flex:1 1 30rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+  }
+  
+  .speciality .box-container .box1 .image{
+    height:100%;
+    width:100%;
+    object-fit:cover;background-repeat: no-repeat;
+    position:absolute;
+    top:-100%; left:0;
+  }
+  
+  .speciality .box-container .box1 .content{
+    text-align: center;
+    background:#fff;
+    padding:2rem;
+  }
+  
+  
+  .speciality .box-container .box1 .content h3{
+    font-size: 2.5rem;
+    color:#333;
+  }
+  
+  .speciality .box-container .box1 .content p{
+    font-size: 1.6rem;
+    color:#666;
+    padding:1rem 0;
+  }
+  
+  .speciality .box-container .box1:hover .image{
+    top:0;
+  }
+  
+  .speciality .box-container .box1:hover .content{
+    transform: translateY(100%);
+  }
+
+  .form
+  {
+    padding: 10px;
+    background-color: black;opacity: 80%;
+    text-align: center;
+    float: inline-end;
+    
+  }
+
+  footer
+  {
+    text-align: center;
+    background-color: white;
+    padding: 3px;
+    color: black;
+    opacity: 70%;
+    margin: 0%;
+    border: 2px;
+    row-gap: 2px;
+  }
+  th{
+    float: right;
+ text-align: center;
+  }
+
+  .table
+  {
+    text-align: center;
+    float: right;
+    padding: auto;
+    text-align: justify;
+  }

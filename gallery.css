@@ -1,0 +1,62 @@
+body
+{
+margin: 20;
+background-color: black;
+}
+H1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: beige;
+    text-align: center;
+}
+h1:hover{
+    background-color: lightgreen;
+    color: darkblue;
+}
+.box
+{
+    border: 2px black;
+    padding: 5px;
+    border: 1px solid white;
+    width: 500px;height: 333px;
+    margin: 10px;
+    object-fit:cover ;
+    text-align: center;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+.gallery{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+   
+}
+
+.contain
+{
+    position: absolute;
+}
+
+.content
+{
+    color: white;
+}
+
+.content{
+    margin: 5px;
+    position: absolute;
+    top: -100%;
+    align-content: center;
+    left:0;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.box:hover .contain
+{
+    transform: translateY(100%);
+}
+
