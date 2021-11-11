@@ -1,0 +1,18 @@
+.body
+{
+    margin: 0;
+}
+h1:hover{
+    background-color: lightgreen;
+    color: darkcyan;
+
+}
+.add
+{
+    cursor: pointer;
+    display:content;
+    display:flex;
+    gap: 3px;
+    margin-left: 200px;
+}
+
