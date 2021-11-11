@@ -4,9 +4,13 @@ margin: 20;
 background-color: black;
 }
 H1{
+    position:-webkit-sticky;
+    position: sticky;
+    top:0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: beige;
     text-align: center;
+   
 }
 h1:hover{
     background-color: lightgreen;

@@ -8,9 +8,13 @@ body{
     background-size: cover;
    image-resolution: 1600*960px;
    background-position-x: center;
+   margin: 0;
 }
 .box
 {
+  position:-webkit-sticky;
+    position: sticky;
+    top:0;
     cursor: pointer;
     width: 900px;
     float: right;
@@ -20,7 +24,7 @@ body{
     width: 120px;
     float: left; 
     margin: 10px auto;
-    text-align: center
+    text-align: center;
 }
 
 .box ul li a {
