@@ -237,29 +237,6 @@ form, input[type="button"]:hover{background-color: lightgreen;}
   }
   
  
-
- @media screen and (max-width: 768px)
- {
-  .box-container {
-     width: 100%
-  };
- 
- }
- 
- 
-   
-
- @media screen and (min-width: 769px) and (max-width: 1200px)
- {
-  .box-container {
-    width: 50%
- };
-}
-@media screen and (max-width: 1201px) {
-  .box-container {
-    width: 33%
- };
- }
  @media screen and (max-width: 768px)
  {
   .box{
